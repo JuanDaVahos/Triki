@@ -28,9 +28,10 @@ casillas.forEach((casilla,index) => {
 });
 
 function reset() {
-    casillas.forEach((casilla) => {
+    casillas.forEach((casilla,index) => {
         casilla.textContent = '';
         casilla.disabled = false;
+        movimientos[index] = null;
     });
     turno = true;
     document.querySelector('#mensaje').textContent = '';
