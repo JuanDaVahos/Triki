@@ -55,3 +55,14 @@ h1{
     box-shadow: #0be4dd 0px 0px 10px 5px;
     cursor: pointer;
 }
+
+#mensaje{
+    color: #00ffea;
+    text-shadow: #0be4dd 0px 0px 5px ;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
